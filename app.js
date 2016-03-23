@@ -1,1 +1,5 @@
+<<<<<<< HEAD
 dhthththt
+=======
+sgrgrg
+>>>>>>> backbone
