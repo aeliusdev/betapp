@@ -1,0 +1,14 @@
+{
+  "name": "betapp",
+  "homepage": "https://github.com/aeliusdev/betapp",
+  "description": "\"Backbone App\"",
+  "main": "app.js",
+  "moduleType": [],
+  "keywords": [
+    "backbone"
+  ],
+  "authors": [
+    "George Baker"
+  ],
+  "license": "MIT"
+}
