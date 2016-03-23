@@ -1,0 +1,26 @@
+{
+  "name": "betapp",
+  "version": "1.0.0",
+  "description": "\"Bet App\"",
+  "main": "app.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aeliusdev/betapp.git"
+  },
+  "author": "George Baker",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aeliusdev/betapp/issues"
+  },
+  "homepage": "https://github.com/aeliusdev/betapp#readme",
+  "devDependencies": {
+    "express": "^4.13.4"
+  },
+  "dependencies": {
+    "gulp": "^3.9.1",
+    "gulp-sass": "^2.2.0"
+  }
+}
