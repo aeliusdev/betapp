@@ -1,7 +1,13 @@
 var express = require("express");
+var logger = require("morgan");
 var app = express();
 
-app.use('/static', express.static(__dirname + '/public'));
+app.use(express.static(__dirname + '/public'));
+app.use(require("./controllers/index"));
 
-app.listen(3000);
+var server = app.listen(3000, function () 
+{
+	console.log("Server running on port " + server.address().port);
+});
 
+app.use(logger('dev'));

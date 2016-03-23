@@ -1,4 +1,9 @@
 var express = require("express");
-var Router = express.Router();
+var router = express.Router();
 
-module.exports = Router;
+router.get("/", function (req, res, next) 
+{
+	res.sendFile("/index.html", {"root": __dirname + "/../public"});
+});
+
+module.exports = router;
